@@ -31,8 +31,6 @@ nnoremap <F1> <Esc>
 vnoremap <F1> <Esc>
 inoremap <F1> <Esc>
 
-nnoremap <leader>fc :FC $LEOHOME/
-
 " One-key resizing windows
 nnoremap + <C-w>>
 vnoremap + <C-w>>
@@ -45,12 +43,11 @@ nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>v :vsp 
 nnoremap <leader>e :e 
-nnoremap <leader>l :e $LEOHOME
 vnoremap <leader><space> <Esc>
-nnoremap <leader>s :e scp://gkoo-ld//home/gkoo/workspace/<cr>
 nnoremap <leader>p :color pyte<cr>
 nnoremap <leader>fu :set fu<cr>
 nnoremap <leader>nfu :set nofu<cr>
+nnoremap <leader><tab> :tabn<cr>
 
 nnoremap <leader>o zo
 nnoremap <leader>cc zc

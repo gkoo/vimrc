@@ -30,5 +30,8 @@ set wildmenu
 set wildignore=*.zip,*.swp,*.pyc,*.class  " Ignore types for wildmenu
 set wildmode=longest:full,full            " Auto-fill longest common substring, then on subsequent tabs fill in full
 
+" For some reason, need to reset ignorecase for each new buffer
+autocmd BufEnter * set ignorecase
+
 "set nocompatible                          " No compatibility mode with vi
 "set relativenumber                        " Show all other line numbers relative to the current line
