@@ -5,8 +5,7 @@ filetype plugin indent on
 
 source ~/.vim/basic_settings.vim
 source ~/.vim/remappings.vim
-
-set guifont=Menlo:h18
+source ~/.vim/gui.vim
 
 " hidden patterns for netrw directory listing
 " when in netrw view, hit 'a' to toggle showing all files
