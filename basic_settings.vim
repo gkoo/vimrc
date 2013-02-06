@@ -2,7 +2,6 @@
 set ignorecase                            " makes searches case insensitive
 set incsearch
 set smartcase                             " if a search contains at least one uppercase character, make search case-sensitive
-set nowrapscan
 
 " INDENT
 set autoindent
@@ -24,6 +23,7 @@ set list
 set listchars=tab:>-
 set mps+=<:>                              " match pairs, add angle brackets for html
 set number
+set ruler
 set scrolljump=5                          " Minimal number of lines to scroll when the cursor gets off the screen
 set scrolloff=3                           " Minimal number of screen lines to keep above and below the cursor.
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
