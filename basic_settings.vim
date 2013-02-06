@@ -19,6 +19,7 @@ set completeopt=longest,menuone,preview   " omnicomplete options
 set cursorline
 set directory=~/.vim/tmp                  " directory for swap files
 set foldmethod=indent
+set guifont=Menlo:h18
 set hlsearch
 set list
 set listchars=tab:>-
