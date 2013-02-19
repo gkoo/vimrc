@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 syntax on
-filetype plugin indent on
+filetype plugin on
 
 source ~/.vim/basic_settings.vim
 source ~/.vim/remappings.vim
