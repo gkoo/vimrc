@@ -13,3 +13,25 @@ Make the tmp and undo directories if they don't already exist:
 
     mkdir -p ~/.vim/tmp
     mkdir -p ~/.vim/undo
+
+Add plugins as submodules:
+
+    git submodule add git://github.com/kien/ctrlp.vim.git
+
+Installing submodules on a new machine:
+
+    git submodule init
+    git submodule update
+
+To update a plugin bundle:
+
+    cd ~/.vim/bundle/ctrlp
+    git pull origin master
+
+To upgrade all bundled plugins:
+
+    git submodule foreach git pull origin master
+
+For more info:
+
+    http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
