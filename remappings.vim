@@ -1,6 +1,6 @@
 " REMAPPINGS
 " ----------
-let mapleader = ","
+let mapleader = " "
 
 " Switch windows via Ctrl-<h,j,k,l> instead of Ctrl-W,<h,j,k,l>
 noremap <C-J> <C-W>j
