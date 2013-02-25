@@ -44,10 +44,12 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>v :vsp 
 nnoremap <leader>e :e 
 vnoremap <leader><space> <Esc>
-nnoremap <leader>p :color pyte<cr>
+nnoremap <leader>pw :pw<cr>
+nnoremap <leader>pa :set paste!<cr>
 nnoremap <leader>fu :set fu<cr>
 nnoremap <leader>nfu :set nofu<cr>
 nnoremap <leader><tab> :tabn<cr>
+nnoremap <leader>tn :tabnew<cr>
 
 nnoremap <leader>o zo
 nnoremap <leader>cc zc
