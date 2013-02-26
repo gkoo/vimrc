@@ -51,5 +51,14 @@ nnoremap <leader>nfu :set nofu<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
 
+" CTRL-P
+nnoremap <C-P> :CtrlP<cr>
+
+" FUGITIVE
+nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gw :Gwrite<cr>
+nnoremap <leader>gd :Gdiff<cr>
+nnoremap <leader>gci :Gcommit<cr>
+
 nnoremap <leader>o zo
 nnoremap <leader>cc zc
