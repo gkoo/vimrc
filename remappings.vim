@@ -9,9 +9,11 @@ noremap <C-H> <C-W>h
 noremap <C-L> <C-W>l
 
 " Kinesis keyboard remappings
-nnoremap <End> <Esc>
-inoremap <End> <Esc>
-vnoremap <End> <Esc>
+nnoremap <Del> <Esc>
+inoremap <Del> <Esc>
+vnoremap <Del> <Esc>
+onoremap <Del> <Esc>
+cnoremap <Del> <Esc>
 inoremap jj <Esc>
 nnoremap <PageDown> :
 vnoremap <PageDown> :
@@ -23,13 +25,13 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
-nnoremap <leader>a :Ack
+"nnoremap <leader>a :Ack
 nnoremap K <Esc>
 vnoremap K <Esc>
 
-nnoremap <F1> <Esc>
-vnoremap <F1> <Esc>
-inoremap <F1> <Esc>
+"nnoremap <F1> <Esc>
+"vnoremap <F1> <Esc>
+"inoremap <F1> <Esc>
 
 " One-key resizing windows
 nnoremap + <C-w>>
