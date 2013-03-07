@@ -8,4 +8,6 @@ source ~/.vim/remappings.vim
 source ~/.vim/gui.vim
 source ~/.vim/netrw.vim
 
+" Syntax highlighting for LESS
+au BufRead,BufNewFile *.less setfiletype css
 color pyte
