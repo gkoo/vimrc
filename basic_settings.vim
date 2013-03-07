@@ -21,7 +21,7 @@ set foldmethod=indent
 set guifont=Menlo:h18
 set hlsearch
 set list
-set listchars=tab:>-
+set listchars=tab:>-                      " set listchars=tab:>-,trail:~
 set mps+=<:>                              " match pairs, add angle brackets for html
 set number
 set ruler
