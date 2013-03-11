@@ -48,6 +48,7 @@ nnoremap <leader>fu :set fu<cr>
 nnoremap <leader>nfu :set nofu<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
+nnoremap <leader>m @q
 
 " CTRL-P
 nnoremap <C-P> :CtrlP<cr>
