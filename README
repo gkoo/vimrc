@@ -16,7 +16,7 @@ Make the tmp and undo directories if they don't already exist:
 
 Add plugins as submodules:
 
-    git submodule add git://github.com/kien/ctrlp.vim.git
+    git submodule add git://github.com/kien/ctrlp.vim.git bundle/ctrlp
 
 Installing submodules on a new machine:
 

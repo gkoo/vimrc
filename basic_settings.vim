@@ -17,11 +17,12 @@ set clipboard=unnamed
 set completeopt=longest,menuone,preview   " omnicomplete options
 set cursorline
 set directory=~/.vim/tmp                  " directory for swap files
+set encoding=utf-8
 set foldmethod=indent
 set guifont=Menlo:h18
 set hlsearch
 set list
-set listchars=tab:>-                      " set listchars=tab:>-,trail:~
+set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
 set mps+=<:>                              " match pairs, add angle brackets for html
 set number
 set ruler

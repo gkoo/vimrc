@@ -58,5 +58,8 @@ nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>gci :Gcommit<cr>
 
-nnoremap <leader>o zo
-nnoremap <leader>cc zc
+" Center cursor on screen
+
+nnoremap <space> zz
+nnoremap <leader>j zo
+nnoremap <leader>k zc
