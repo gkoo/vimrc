@@ -9,11 +9,11 @@ noremap <C-H> <C-W>h
 noremap <C-L> <C-W>l
 
 " Kinesis keyboard remappings
-nnoremap <Del> <C-C>
-inoremap <Del> <C-C>
-vnoremap <Del> <C-C>
-onoremap <Del> <C-C>
-cnoremap <Del> <C-C>
+nnoremap <End> <C-C>
+inoremap <End> <C-C>
+vnoremap <End> <C-C>
+onoremap <End> <C-C>
+cnoremap <End> <C-C>
 inoremap jj <Esc>
 nnoremap <PageDown> :
 vnoremap <PageDown> :
