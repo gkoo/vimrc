@@ -10,8 +10,9 @@ source ~/.vim/remappings.vim
 source ~/.vim/gui.vim
 source ~/.vim/netrw.vim
 source ~/.vim/whitespace.vim
+source ~/.vim/syntastic.vim
 
-" Syntax highlighting for LESS
+" Syntax highlighting for LESS/SCSS
 au BufRead,BufNewFile *.less setfiletype css
 au BufRead,BufNewFile *.ejs setfiletype html
 color pyte
