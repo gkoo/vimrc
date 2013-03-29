@@ -13,4 +13,5 @@ source ~/.vim/whitespace.vim
 
 " Syntax highlighting for LESS
 au BufRead,BufNewFile *.less setfiletype css
+au BufRead,BufNewFile *.ejs setfiletype html
 color pyte
