@@ -2,11 +2,14 @@
 " ----------
 let mapleader = ","
 
+nnoremap H ^
+nnoremap L $
+
 " Switch windows via Ctrl-<h,j,k,l> instead of Ctrl-W,<h,j,k,l>
-noremap <C-J> <C-W>j
-noremap <C-K> <C-W>k
-noremap <C-H> <C-W>h
-noremap <C-L> <C-W>l
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-H> <C-W>h
+nnoremap <C-L> <C-W>l
 
 " Kinesis keyboard remappings
 nnoremap <Del> <C-C>
@@ -14,7 +17,8 @@ inoremap <Del> <C-C>
 vnoremap <Del> <C-C>
 onoremap <Del> <C-C>
 cnoremap <Del> <C-C>
-inoremap jj <Esc>
+inoremap jk <Esc>
+inoremap <Esc> <nop>
 nnoremap <PageDown> :
 vnoremap <PageDown> :
 inoremap <PageDown> :
@@ -49,6 +53,8 @@ nnoremap <leader>nfu :set nofu<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " CTRL-P
 nnoremap <C-P> :CtrlP<cr>
