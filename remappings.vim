@@ -18,7 +18,6 @@ vnoremap <Del> <C-C>
 onoremap <Del> <C-C>
 cnoremap <Del> <C-C>
 inoremap jk <Esc>
-inoremap <Esc> <nop>
 nnoremap <PageDown> :
 vnoremap <PageDown> :
 inoremap <PageDown> :
@@ -53,7 +52,7 @@ nnoremap <leader>nfu :set nofu<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>:cd .vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " CTRL-P
