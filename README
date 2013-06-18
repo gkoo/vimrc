@@ -8,6 +8,10 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+    
+Or combine the two commands:
+
+    git submodule update --init
 
 Make the tmp and undo directories if they don't already exist:
 
