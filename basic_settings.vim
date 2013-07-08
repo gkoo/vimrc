@@ -32,7 +32,7 @@ set shortmess=T                           " Fix the 'Press ENTER to continue' me
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
 set tags=./tags;                          " directory for tag files
 set wildmenu
-set wildignore=*.zip,*.swp,*.pyc,*.class  " Ignore types for wildmenu
+set wildignore=*.zip,*.swp,*.pyc,*.class,.git " Ignore types for wildmenu
 set wildmode=longest:full,full            " Auto-fill longest common substring, then on subsequent tabs fill in full
 
 " For some reason, need to reset ignorecase for each new buffer

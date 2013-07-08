@@ -4,6 +4,8 @@ let mapleader = ","
 
 nnoremap H ^
 nnoremap L $
+vnoremap H ^
+vnoremap L $
 
 " Switch windows via Ctrl-<h,j,k,l> instead of Ctrl-W,<h,j,k,l>
 nnoremap <C-J> <C-W>j
@@ -21,6 +23,8 @@ inoremap jk <Esc>
 nnoremap <PageDown> :
 vnoremap <PageDown> :
 inoremap <PageDown> :
+inoremap <End> _
+cnoremap <End> _
 
 " Typing comma then space removes highlighting
 nnoremap <leader><space> :noh<cr>
@@ -67,5 +71,6 @@ nnoremap <leader>gci :Gcommit<cr>
 " Center cursor on screen
 
 nnoremap <space> zz
+vnoremap <space> zz
 nnoremap <leader>j zo
 nnoremap <leader>k zc
