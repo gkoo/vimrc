@@ -6,6 +6,8 @@ nnoremap H ^
 nnoremap L $
 vnoremap H ^
 vnoremap L $
+onoremap H ^
+onoremap L $
 
 " Switch windows via Ctrl-<h,j,k,l> instead of Ctrl-W,<h,j,k,l>
 nnoremap <C-J> <C-W>j
@@ -51,8 +53,7 @@ nnoremap <leader>e :e
 vnoremap <leader><space> <Esc>
 nnoremap <leader>pw :pw<cr>
 nnoremap <leader>pa :set paste!<cr>
-nnoremap <leader>fu :set fu<cr>
-nnoremap <leader>nfu :set nofu<cr>
+nnoremap <leader>f :set fullscreen!<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
@@ -74,3 +75,6 @@ nnoremap <space> zz
 vnoremap <space> zz
 nnoremap <leader>j zo
 nnoremap <leader>k zc
+
+" Fix Python and Ruby comments
+inoremap # X<C-H>#
