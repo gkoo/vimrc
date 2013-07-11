@@ -4,6 +4,8 @@ let mapleader = ","
 
 nnoremap H ^
 nnoremap L $
+onoremap H ^
+onoremap L $
 vnoremap H ^
 vnoremap L $
 
@@ -74,3 +76,6 @@ nnoremap <space> zz
 vnoremap <space> zz
 nnoremap <leader>j zo
 nnoremap <leader>k zc
+
+" Fix # comments for Python and Ruby
+inoremap # X<C-H>#
