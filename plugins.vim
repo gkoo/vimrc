@@ -7,4 +7,14 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 " Ack
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack! 
+
+" CTRL-P
+nnoremap <C-P> :CtrlP<cr>
+
+" FUGITIVE
+nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gw :Gwrite<cr>
+nnoremap <leader>gd :Gdiff<cr>
+nnoremap <leader>gci :Gcommit<cr>
+nnoremap <leader>gb :Gblame<cr>

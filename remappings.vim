@@ -60,15 +60,6 @@ nnoremap <leader>m @q
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>:cd .vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-" CTRL-P
-nnoremap <C-P> :CtrlP<cr>
-
-" FUGITIVE
-nnoremap <leader>gs :Gstatus<cr>
-nnoremap <leader>gw :Gwrite<cr>
-nnoremap <leader>gd :Gdiff<cr>
-nnoremap <leader>gci :Gcommit<cr>
-
 " Center cursor on screen
 
 nnoremap <space> zz

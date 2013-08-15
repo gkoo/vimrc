@@ -11,9 +11,11 @@ source ~/.vim/whitespace.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/abbreviations.vim
 source ~/.vim/plugins.vim
+source ~/.vim/functions.vim
 
 " Syntax highlighting for LESS/SCSS
 au BufRead,BufNewFile *.less setfiletype css
 au BufRead,BufNewFile *.ejs setfiletype html
+au BufRead,BufNewFile *.bash_profile setfiletype bash
 color pyte
 "color rubyblue
