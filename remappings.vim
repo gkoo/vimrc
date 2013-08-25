@@ -53,8 +53,7 @@ nnoremap <leader>e :e
 vnoremap <leader><space> <Esc>
 nnoremap <leader>pw :pw<cr>
 nnoremap <leader>pa :set paste!<cr>
-nnoremap <leader>fu :set fu<cr>
-nnoremap <leader>nfu :set nofu<cr>
+nnoremap <leader>f :set fullscreen!<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
