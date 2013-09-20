@@ -4,6 +4,8 @@ let mapleader = ","
 
 nnoremap H ^
 nnoremap L $
+onoremap H ^
+onoremap L $
 vnoremap H ^
 vnoremap L $
 onoremap H ^
