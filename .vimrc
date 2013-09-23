@@ -8,7 +8,6 @@ source ~/.vim/remappings.vim
 source ~/.vim/gui.vim
 source ~/.vim/netrw.vim
 source ~/.vim/whitespace.vim
-source ~/.vim/syntastic.vim
 source ~/.vim/abbreviations.vim
 source ~/.vim/plugins.vim
 source ~/.vim/functions.vim

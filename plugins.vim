@@ -18,3 +18,7 @@ nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>gci :Gcommit<cr>
 nnoremap <leader>gb :Gblame<cr>
+
+" SYNTASTIC
+let g:syntastic_mode_map = { 'mode': 'passive',
+                           \ 'active_filetypes': ['javascript'] }
