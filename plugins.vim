@@ -8,9 +8,12 @@ let g:ctrlp_custom_ignore = {
 
 " Ack
 nnoremap <leader>a :Ack! 
+let g:ackdefaultdir="~/monorail/app/assets/javascripts/verified_id"
+let g:ackhighlight=1
 
 " CTRL-P
 nnoremap <C-P> :CtrlP<cr>
+let g:ctrlp_max_files = 0
 
 " FUGITIVE
 nnoremap <leader>gs :Gstatus<cr>
