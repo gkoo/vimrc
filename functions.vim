@@ -3,7 +3,7 @@ function! ReplaceTabsWithSpaces()
 endfunction
 
 function! RemoveWhitespace()
-  %s/\s\s*$//g
+  %s/\s+$//g
 endfunction
 
 " Custom function extending fugitive#head() to get special formatting

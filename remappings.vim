@@ -60,8 +60,14 @@ nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>` :tabp<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
-nnoremap <leader>cv :vsplit $MYVIMRC<cr>:cd .vim<cr>
+nnoremap <leader>ov :vsplit ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Airbnb stuff
+nnoremap <leader>om :e ~/monorail<cr>
+nnoremap <leader>oaj :e ~/monorail/app/assets/javascripts<cr>
+nnoremap <leader>oas :e ~/monorail/app/assets/stylesheets<cr>
+nnoremap <leader>oat :e ~/monorail/app/assets/templates<cr>
 
 " Colors
 nnoremap <leader>cp :color pyte<cr>
