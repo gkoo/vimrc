@@ -62,6 +62,7 @@ nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
 nnoremap <leader>ov :vsplit ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>ow :e ~/workspace<cr>
 
 " Airbnb stuff
 nnoremap <leader>om :e ~/monorail<cr>
