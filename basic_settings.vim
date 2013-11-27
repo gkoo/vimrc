@@ -36,19 +36,6 @@ set wildignore=*.zip,*.swp,*.pyc,*.class,.git,*.log,*.map " Ignore types for wil
 set wildmode=longest:full,full            " Auto-fill longest common substring, then on subsequent tabs fill in full
 
 
-" STATUSLINE
-set statusline=%m        "modified flag
-set statusline+=%{GetStatusLine()} "current git branch (fugitive-statusline)
-set statusline+=%t       "tail of the filename
-set statusline+=%r      "read only flag
-"set statusline+=%{StatuslineLongLineWarning()}
-"set statusline+=%{StatuslineTrailingSpaceWarning()}
-set statusline+=%=      "left/right separator
-set statusline+=%c,     "cursor column
-set statusline+=%l/%L   "cursor line/total lines
-set statusline+=\ %P    "percent through file
-
-
 " For some reason, need to reset ignorecase for each new buffer
 autocmd BufEnter * set ignorecase
 

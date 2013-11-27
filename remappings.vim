@@ -60,7 +60,7 @@ nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>` :tabp<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>m @q
-nnoremap <leader>ov :vsplit ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
+nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
 
