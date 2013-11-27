@@ -12,6 +12,14 @@ source ~/.vim/abbreviations.vim
 source ~/.vim/plugins.vim
 source ~/.vim/functions.vim
 source ~/.vim/file_types.vim
+source ~/.vim/status_line.vim
 
-"color pyte
-color rubyblue
+" These variables are used for status_line.vim
+let g:gordons_color_of_choice = "pyte"
+"let gordons_color_of_choice = "rubyblue"
+
+if g:gordons_color_of_choice == "pyte"
+  color pyte
+else
+  color rubyblue
+endif

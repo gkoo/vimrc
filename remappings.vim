@@ -71,8 +71,8 @@ nnoremap <leader>oas :e ~/monorail/app/assets/stylesheets<cr>
 nnoremap <leader>oat :e ~/monorail/app/assets/templates<cr>
 
 " Colors
-nnoremap <leader>cp :color pyte<cr>
-nnoremap <leader>cr :color rubyblue<cr>
+nnoremap <leader>cp :let g:gordons_color_of_choice="pyte"<cr>:color pyte<cr>
+nnoremap <leader>cr :let g:gordons_color_of_choice="rubyblue"<cr>:color rubyblue<cr>
 
 " Center cursor on screen
 
