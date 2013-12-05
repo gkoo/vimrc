@@ -33,8 +33,8 @@ set statusline+=%r      "read only flag
 "set statusline+=%{StatuslineLongLineWarning()}
 "set statusline+=%{StatuslineTrailingSpaceWarning()}
 set statusline+=%=      "left/right separator
-set statusline+=%c,     "cursor column
-set statusline+=%l/%L   "cursor line/total lines
+set statusline+=C%c:     "cursor column
+set statusline+=L(%l/%L)   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 
 
