@@ -45,6 +45,7 @@ nnoremap + <C-w>>
 vnoremap + <C-w>>
 nnoremap - <C-w><
 vnoremap - <C-w><
+nnoremap = <C-w>=
 
 " Did you know that <C-w>+ and <C-w>- resize horizontal splits??? crazy!
 
@@ -65,7 +66,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
 
 " Airbnb stuff
-nnoremap <leader>om :e ~/monorail<cr>
+nnoremap <leader>om :e ~/workspace/airbnb/monorail<cr>
 nnoremap <leader>oaj :e ~/monorail/app/assets/javascripts<cr>
 nnoremap <leader>oas :e ~/monorail/app/assets/stylesheets<cr>
 nnoremap <leader>oat :e ~/monorail/app/assets/templates<cr>
