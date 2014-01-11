@@ -60,6 +60,7 @@ nnoremap <leader>f :set fullscreen!<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>` :tabp<cr>
 nnoremap <leader>tn :tabnew<cr>
+nnoremap <leader>sfi :set foldmethod=indent<cr>
 nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>

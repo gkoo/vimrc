@@ -9,7 +9,8 @@ endif
 let colors_name = "pyte"
 
 if version >= 700
-    hi CursorLine guibg=#f6f6f6
+    "hi CursorLine guibg=#f6f6f6
+    hi CursorLine guibg=#ffffff
     hi CursorColumn guibg=#eaeaea
     hi MatchParen guifg=white guibg=#80a090 gui=bold
 

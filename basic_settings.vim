@@ -19,7 +19,7 @@ set cursorline
 set directory=~/.vim/tmp                  " directory for swap files
 set encoding=utf-8
 set foldmethod=indent
-set guifont=Menlo:h18
+set guifont=Menlo:h16
 set hlsearch
 set list
 set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
