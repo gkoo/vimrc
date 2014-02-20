@@ -36,6 +36,11 @@ To upgrade all bundled plugins:
 
     git submodule foreach git pull origin master
 
+To remove a submodule:
+
+    git submodule deinit bundle/my-submodule
+    git rm bundle/my-submodule
+
 For more info:
 
     http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
