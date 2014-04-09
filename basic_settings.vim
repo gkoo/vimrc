@@ -14,8 +14,10 @@ set autochdir
 set autoread                              " Set Vim to reload file when it has been changed externally
 set backspace=2                           " Same as ':set backspace=indent,eol,start'
 set clipboard=unnamed
+set colorcolumn=0                         " don't set color column on normal files
 set completeopt=longest,menuone,preview   " omnicomplete options
 set cursorline
+set diffopt+=iwhite                       " Ignore whitespace in diffs. Useful for Fugitive!
 set directory=~/.vim/tmp                  " directory for swap files
 set encoding=utf-8
 set foldmethod=indent

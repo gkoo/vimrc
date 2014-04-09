@@ -35,16 +35,19 @@ nnoremap <leader><space> :noh<cr>
 
 nnoremap <tab> %
 vnoremap <tab> %
+onoremap <tab> %
 
-"nnoremap <leader>a :Ack
+" Toggle fold open/closed
+nnoremap <cr> za
+
 nnoremap K <Esc>
 vnoremap K <Esc>
 
 " One-key resizing windows
 nnoremap + <C-w>>
 vnoremap + <C-w>>
-nnoremap - <C-w><
-vnoremap - <C-w><
+"nnoremap - <C-w><
+"vnoremap - <C-w><
 nnoremap = <C-w>=
 
 " Did you know that <C-w>+ and <C-w>- resize horizontal splits??? crazy!
@@ -63,14 +66,13 @@ nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>sfi :set foldmethod=indent<cr>
 nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
+nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
 
 " Airbnb stuff
 nnoremap <leader>om :e ~/workspace/airbnb/monorail<cr>
-nnoremap <leader>oaj :e ~/monorail/app/assets/javascripts<cr>
-nnoremap <leader>oas :e ~/monorail/app/assets/stylesheets<cr>
-nnoremap <leader>oat :e ~/monorail/app/assets/templates<cr>
+nnoremap <leader>oa :e ~/workspace/airbnb/<cr>
 
 " Colors
 nnoremap <leader>cp :let g:gordons_color_of_choice="pyte"<cr>:color pyte<cr>

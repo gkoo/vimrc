@@ -1,7 +1,6 @@
 execute pathogen#infect()
 
 syntax on
-filetype plugin on
 
 source ~/.vim/basic_settings.vim
 source ~/.vim/remappings.vim
@@ -23,3 +22,4 @@ if g:gordons_color_of_choice == "pyte"
 else
   color rubyblue
 endif
+filetype plugin on
