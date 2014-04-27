@@ -2,11 +2,11 @@
 let g:ctrlp_max_files = 0
 let g:ctrlp_use_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_user_command = 'find %s -type f | egrep -iv "(\.(eot|gif|gz|ico|jpg|jpeg|otf|png|psd|pyc|svg|ttf|woff|zip)$)|(/\.)|((^|\/)(tmp|public|db|node_modules)\/)"' "Quicker indexing
+let g:ctrlp_user_command = 'find %s -type f | egrep -iv "(\.(eot|gif|gz|ico|jpg|jpeg|otf|png|psd|pyc|svg|ttf|woff|zip|xml)$)|(/\.)|((^|\/)(tmp|public|db|node_modules)\/)"' "Quicker indexing
 let g:ctrlp_lazy_update = 100 "Only refreshes the results every 100ms so if you type fast searches don't pile up
 let g:ctrlp_prompt_mappings = {
-         \ 'AcceptSelection("e")': ['<c-e>'],
-         \ 'AcceptSelection("v")': ['<cr>'],
+         \ 'AcceptSelection("e")': ['<cr>'],
+         \ 'AcceptSelection("v")': ['<c-v>'],
          \ }
 
 " Ag
