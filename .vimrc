@@ -13,13 +13,18 @@ source ~/.vim/functions.vim
 source ~/.vim/file_types.vim
 source ~/.vim/status_line.vim
 
-" These variables are used for status_line.vim
-let g:gordons_color_of_choice = "pyte"
-"let gordons_color_of_choice = "rubyblue"
-
-if g:gordons_color_of_choice == "pyte"
-  color pyte
+set background=dark
+if has('gui_running')
+  color solarized
 else
-  color rubyblue
+  " Compatibility for Terminal
+  let g:solarized_termtrans=1
+
+  if (&t_Co >= 256 || $TERM == 'xterm-256color')
+      " Do nothing, it handles itself.
+  else
+      " Make Solarized use 16 colors for Terminal support
+      let g:solarized_termcolors=16
+  endif
 endif
 filetype plugin on
