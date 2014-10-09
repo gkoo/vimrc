@@ -13,10 +13,10 @@ set shiftwidth=2
 set autochdir
 set autoread                              " Set Vim to reload file when it has been changed externally
 set backspace=2                           " Same as ':set backspace=indent,eol,start'
-set clipboard=unnamed
+set clipboard=unnamed                     " Yank to OS clipboard
 set colorcolumn=0                         " don't set color column on normal files
 set completeopt=longest,menuone,preview   " omnicomplete options
-set cursorline
+"set cursorline                           " disabled because it slows down scrolling for lines with lots of indents
 set diffopt+=iwhite                       " Ignore whitespace in diffs. Useful for Fugitive!
 set directory=~/.vim/tmp                  " directory for swap files
 set encoding=utf-8
@@ -32,6 +32,7 @@ set scrolljump=5                          " Minimal number of lines to scroll wh
 set scrolloff=3                           " Minimal number of screen lines to keep above and below the cursor.
 set shortmess=T                           " Fix the 'Press ENTER to continue' messages
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
+set synmaxcol=100                         " Maximum column in which to search for syntax items.
 set tags=./tags;                          " directory for tag files
 set wildmenu
 set wildignore=*.zip,*.swp,*.pyc,*.class,.git,*.log,*.map " Ignore types for wildmenu
