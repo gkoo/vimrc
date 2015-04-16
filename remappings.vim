@@ -46,8 +46,8 @@ vnoremap K <Esc>
 " One-key resizing windows
 nnoremap + <C-w>>
 vnoremap + <C-w>>
-"nnoremap - <C-w><
-"vnoremap - <C-w><
+nnoremap - <C-w><
+vnoremap - <C-w><
 nnoremap = <C-w>=
 
 " Did you know that <C-w>+ and <C-w>- resize horizontal splits??? crazy!
@@ -69,14 +69,16 @@ nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
+nnoremap <leader>ot :e ~/test.html<cr>
 
 " Airbnb stuff
 nnoremap <leader>om :e ~/workspace/airbnb/monorail<cr>
 nnoremap <leader>oa :e ~/workspace/airbnb/<cr>
 
 " Colors
-nnoremap <leader>cp :let g:gordons_color_of_choice="pyte"<cr>:color pyte<cr>
-nnoremap <leader>cr :let g:gordons_color_of_choice="rubyblue"<cr>:color rubyblue<cr>
+nnoremap <leader>cp :color pyte<cr>
+nnoremap <leader>cr :color rubyblue<cr>
+nnoremap <leader>cs :set background=dark<cr>:color solarized<cr>
 
 " Center cursor on screen
 
