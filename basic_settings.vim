@@ -23,6 +23,7 @@ set encoding=utf-8
 set foldmethod=indent
 set guifont=Menlo:h16
 set hlsearch
+set lines=40 columns=120
 set list
 set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
 set mps+=<:>                              " match pairs, add angle brackets for html
