@@ -23,4 +23,3 @@ nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>go :Gbrowse<cr>
 nnoremap <leader>gg :Ggrep 
-let g:fugitive_github_domains = ['git.musta.ch']
