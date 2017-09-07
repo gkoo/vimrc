@@ -1,4 +1,4 @@
 iabbrev dcmt document
 iabbrev f() function()
 iabbrev prt prototype
-set colorcolumn=101
+setlocal colorcolumn=101

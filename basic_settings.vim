@@ -33,7 +33,6 @@ set scrolljump=5                          " Minimal number of lines to scroll wh
 set scrolloff=3                           " Minimal number of screen lines to keep above and below the cursor.
 set shortmess=T                           " Fix the 'Press ENTER to continue' messages
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
-set synmaxcol=100                         " Maximum column in which to search for syntax items.
 set tags=./tags;                          " directory for tag files
 set wildmenu
 set wildignore=*.zip,*.swp,*.pyc,*.class,.git,*.log,*.map " Ignore types for wildmenu

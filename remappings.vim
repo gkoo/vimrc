@@ -68,12 +68,12 @@ nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-nnoremap <leader>ow :e ~/workspace<cr>
+" nnoremap <leader>ow :e ~/workspace<cr> " Commenting out for opendoor
 nnoremap <leader>ot :e ~/test.html<cr>
 
-" Airbnb stuff
-nnoremap <leader>om :e ~/workspace/airbnb/monorail<cr>
-nnoremap <leader>oa :e ~/workspace/airbnb/<cr>
+" Opendoor stuff
+nnoremap <leader>ow :e ~/workspace/opendoor/web<cr>
+nnoremap <leader>oi :e ~/workspace/opendoor/institutions<cr>
 
 " Colors
 nnoremap <leader>cp :color pyte<cr>
@@ -84,8 +84,6 @@ nnoremap <leader>cs :set background=dark<cr>:color solarized<cr>
 
 nnoremap <space> zz
 vnoremap <space> zz
-nnoremap <leader>j zo
-nnoremap <leader>k zc
 
 " Fix Python and Ruby comments
 inoremap # X<C-H>#
