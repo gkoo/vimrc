@@ -16,7 +16,7 @@ set backspace=2                           " Same as ':set backspace=indent,eol,s
 set clipboard=unnamed                     " Yank to OS clipboard
 set colorcolumn=0                         " don't set color column on normal files
 set completeopt=longest,menuone,preview   " omnicomplete options
-"set cursorline                           " disabled because it slows down scrolling for lines with lots of indents
+set cursorline                            " disabled if it slows down scrolling for lines with lots of indents
 set diffopt+=iwhite                       " Ignore whitespace in diffs. Useful for Fugitive!
 set directory=~/.vim/tmp                  " directory for swap files
 set encoding=utf-8

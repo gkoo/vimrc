@@ -34,3 +34,9 @@
 [submodule "bundle/vim-rhubarb"]
 	path = bundle/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "bundle/vim-tsx"]
+	path = bundle/vim-tsx
+	url = git@github.com:ianks/vim-tsx.git

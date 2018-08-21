@@ -8,8 +8,6 @@ onoremap H ^
 onoremap L $
 vnoremap H ^
 vnoremap L $
-onoremap H ^
-onoremap L $
 
 " Switch windows via Ctrl-<h,j,k,l> instead of Ctrl-W,<h,j,k,l>
 nnoremap <C-J> <C-W>j
@@ -37,12 +35,6 @@ nnoremap <tab> %
 vnoremap <tab> %
 onoremap <tab> %
 
-" Toggle fold open/closed
-nnoremap <cr> za
-
-nnoremap K <Esc>
-vnoremap K <Esc>
-
 " One-key resizing windows
 nnoremap + <C-w>>
 vnoremap + <C-w>>
@@ -64,16 +56,22 @@ nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>` :tabp<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>sfi :set foldmethod=indent<cr>
+nnoremap <leader>dt :diffthis<cr>
+nnoremap <leader>do :diffoff<cr>
 nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " nnoremap <leader>ow :e ~/workspace<cr> " Commenting out for opendoor
 nnoremap <leader>ot :e ~/test.html<cr>
+nnoremap <leader>on :e ~/Documents/notes/<cr>
 
 " Opendoor stuff
+nnoremap <leader>oo :e ~/workspace/opendoor/institutions<cr>
 nnoremap <leader>ow :e ~/workspace/opendoor/web<cr>
 nnoremap <leader>oi :e ~/workspace/opendoor/institutions<cr>
+nnoremap <leader>oh :e ~/workspace/opendoor/hellorito<cr>
+nnoremap <leader>om :e ~/workspace/opendoor/mobile<cr>
 
 " Colors
 nnoremap <leader>cp :color pyte<cr>
@@ -84,6 +82,7 @@ nnoremap <leader>cs :set background=dark<cr>:color solarized<cr>
 
 nnoremap <space> zz
 vnoremap <space> zz
+nmap <cr> za
 
 " Fix Python and Ruby comments
 inoremap # X<C-H>#
@@ -102,3 +101,12 @@ nnoremap <D-7> 7gt
 nnoremap <D-8> 8gt
 nnoremap <D-9> 9gt
 nnoremap <D-0> :tablast<CR>
+
+" for quickfix
+nnoremap <c-q> <cr>
+
+" Too many accidental usages of this
+nnoremap K <esc>
+" nnoremap K :Ggrep! "\b<C-R><C-W>\b"<CR>:cw<CR>h"
+
+nnoremap <leader>ss :SyntasticCheck<cr>
