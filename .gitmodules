@@ -40,3 +40,6 @@
 [submodule "bundle/vim-tsx"]
 	path = bundle/vim-tsx
 	url = git@github.com:ianks/vim-tsx.git
+[submodule "bundle/vim-colors-github"]
+	path = bundle/vim-colors-github
+	url = git@github.com:cormacrelf/vim-colors-github.git

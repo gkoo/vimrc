@@ -64,7 +64,7 @@ nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " nnoremap <leader>ow :e ~/workspace<cr> " Commenting out for opendoor
 nnoremap <leader>ot :e ~/test.html<cr>
-nnoremap <leader>on :e ~/Documents/notes/<cr>
+nnoremap <leader>on :e ~/Dropbox/Documents/notes/<cr>
 
 " Opendoor stuff
 nnoremap <leader>oo :e ~/workspace/opendoor/institutions<cr>
