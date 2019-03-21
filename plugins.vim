@@ -50,3 +50,6 @@ let g:syntastic_mode_map = {
     \ "mode": "active",
     \ "active_filetypes": ["python"],
     \ "passive_filetypes": ["javascript", "ruby", "typescript"] }
+
+" VIM-GO
+let g:go_bin_path = "/Users/gordonkoo/workspace/opendoor/go"

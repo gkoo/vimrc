@@ -67,11 +67,12 @@ nnoremap <leader>ot :e ~/test.html<cr>
 nnoremap <leader>on :e ~/Dropbox/Documents/notes/<cr>
 
 " Opendoor stuff
-nnoremap <leader>oo :e ~/workspace/opendoor/institutions<cr>
+nnoremap <leader>oo :e ~/workspace/opendoor<cr>
 nnoremap <leader>ow :e ~/workspace/opendoor/web<cr>
 nnoremap <leader>oi :e ~/workspace/opendoor/institutions<cr>
 nnoremap <leader>oh :e ~/workspace/opendoor/hellorito<cr>
 nnoremap <leader>om :e ~/workspace/opendoor/mobile<cr>
+nnoremap <leader>oc :e ~/workspace/opendoor/code<cr>
 
 " Colors
 nnoremap <leader>cp :color pyte<cr>
