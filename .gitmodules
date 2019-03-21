@@ -43,3 +43,6 @@
 [submodule "bundle/vim-colors-github"]
 	path = bundle/vim-colors-github
 	url = git@github.com:cormacrelf/vim-colors-github.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
