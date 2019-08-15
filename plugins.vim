@@ -55,3 +55,10 @@ let g:syntastic_mode_map = {
 let g:go_bin_path = "/Users/gordonkoo/workspace/opendoor/go"
 " Fix for fold issues: https://github.com/fatih/vim-go/issues/502
 "let g:go_fmt_experimental = 1
+
+" FZF
+set rtp+=/usr/local/opt/fzf
+nnoremap <C-T> :GFiles<cr>
+nnoremap <leader>b :Buffers<cr>
+nnoremap <leader>h :History<cr>
+nnoremap <leader>l :BLines<cr>
