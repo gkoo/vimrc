@@ -54,6 +54,9 @@ nnoremap <leader>pa :set paste!<cr>
 nnoremap <leader>f :set fullscreen!<cr>
 nnoremap <leader><tab> :tabn<cr>
 nnoremap <leader>` :tabp<cr>
+nnoremap <leader>' bi'<esc>ea'<esc>
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>
+nnoremap <leader>` viw<esc>a`<esc>bi`<esc>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>sfi :set foldmethod=indent<cr>
 nnoremap <leader>dt :diffthis<cr>
@@ -65,10 +68,12 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " nnoremap <leader>ow :e ~/workspace<cr> " Commenting out for opendoor
 nnoremap <leader>ot :e ~/test.html<cr>
 nnoremap <leader>on :e ~/Dropbox/Documents/notes/<cr>
+nnoremap <leader>ok :e ~/workspace/koofitnessclub<cr>
 
 " Opendoor stuff
 nnoremap <leader>oo :e ~/workspace/opendoor<cr>
 nnoremap <leader>ow :e ~/workspace/opendoor/web<cr>
+nnoremap <leader>or :e ~/workspace/opendoor/go/src/github.com/opendoor-labs/code/go/services/reception<cr>
 nnoremap <leader>oi :e ~/workspace/opendoor/institutions<cr>
 nnoremap <leader>oh :e ~/workspace/opendoor/hellorito<cr>
 nnoremap <leader>om :e ~/workspace/opendoor/mobile<cr>
