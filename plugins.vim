@@ -13,7 +13,7 @@ let g:ctrlp_prompt_mappings = {
   \ }
 
 " Ag
-nnoremap <leader>a :Ag! 
+"nnoremap <leader>a :Ag! 
 let g:agdefaultdir="~/workspace/airbnb/monorail/app"
 "let g:agdefaultdir="~/workspace/airbnb/monorail/app/assets/javascripts/new_verified_id"
 let g:aghighlight=1
@@ -59,6 +59,7 @@ let g:go_bin_path = "/Users/gordonkoo/workspace/opendoor/go"
 " FZF
 set rtp+=/usr/local/opt/fzf
 nnoremap <C-T> :GFiles<cr>
-nnoremap <leader>b :Buffers<cr>
-nnoremap <leader>h :History<cr>
+"nnoremap <leader>b :Buffers<cr>
+nnoremap <leader>b :History<cr>
 nnoremap <leader>l :BLines<cr>
+nnoremap <leader>a :Ag<cr>
