@@ -59,7 +59,12 @@ let g:go_bin_path = "/Users/gordonkoo/workspace/opendoor/go"
 " FZF
 set rtp+=/usr/local/opt/fzf
 nnoremap <C-T> :GFiles<cr>
+nnoremap <C-P> :GFiles<cr>
 "nnoremap <leader>b :Buffers<cr>
 nnoremap <leader>b :History<cr>
 nnoremap <leader>l :BLines<cr>
 nnoremap <leader>a :Ag<cr>
+
+" PRETTIER
+let g:prettier#exec_cmd_path = "/Users/gordonkoo/.asdf/shims/prettier"
+let g:prettier#exec_cmd_async = 1
