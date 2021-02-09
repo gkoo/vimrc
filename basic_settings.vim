@@ -17,12 +17,13 @@ set clipboard=unnamed                     " Yank to OS clipboard
 set colorcolumn=0                         " don't set color column on normal files
 set completeopt=longest,menuone,preview   " omnicomplete options
 set cursorline                            " disabled if it slows down scrolling for lines with lots of indents
-set diffopt+=iwhite                       " Ignore whitespace in diffs. Useful for Fugitive!
+set diffopt=iwhiteall                     " Ignore whitespace in diffs. Useful for Fugitive!
 set directory=~/.vim/tmp                  " directory for swap files
 set encoding=utf-8
 set foldmethod=indent
 set guifont=Menlo:h16
 set hlsearch
+"set hidden
 set lines=40 columns=120
 set list
 set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
@@ -34,6 +35,8 @@ set scrolloff=3                           " Minimal number of screen lines to ke
 set shortmess=T                           " Fix the 'Press ENTER to continue' messages
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
 set tags=./tags;                          " directory for tag files
+set undofile
+set undodir=~/.vim/undo
 set wildmenu
 set wildignore=*.zip,*.swp,*.pyc,*.class,.git,*.log,*.map " Ignore types for wildmenu
 set wildmode=longest:full,full            " Auto-fill longest common substring, then on subsequent tabs fill in full
