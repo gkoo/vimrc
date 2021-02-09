@@ -29,32 +29,10 @@ vnoremap <leader>go :Gbrowse<cr>
 nnoremap <leader>gg :Ggrep 
 autocmd QuickFixCmdPost *grep* cwindow " Make Ggrep open quickfix window
 
-" SYNTASTIC
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_typescript_checkers = ['tslint', 'eslint', 'tsc']
-let g:syntastic_typescript_tslint_args = "--config /Users/gordonkoo/workspace/opendoor/mobile/tslint.json"
-let g:syntastic_shell = '/bin/zsh'
-let g:syntastic_ruby_rubocop_exec = '/Users/gordonkoo/.rbenv/shims/rubocop'
-"let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
-let g:syntastic_javascript_eslint_exe = 'npm run eslint --'
-
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-" Always show only the first error on the line, regardless of cursor position
-let g:syntastic_cursor_columns = 0
-let g:syntastic_mode_map = {
-    \ "mode": "active",
-    \ "active_filetypes": ["python"],
-    \ "passive_filetypes": ["javascript", "ruby", "typescript"] }
-
 " VIM-GO
-let g:go_bin_path = "/Users/gordonkoo/workspace/opendoor/go"
+let g:go_bin_path = "/Users/gkoo/workspace/opendoor/go"
 " Fix for fold issues: https://github.com/fatih/vim-go/issues/502
-"let g:go_fmt_experimental = 1
+let g:go_fmt_experimental = 1
 
 " FZF
 set rtp+=/usr/local/opt/fzf
