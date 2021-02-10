@@ -32,7 +32,7 @@ set number
 set ruler
 set scrolljump=5                          " Minimal number of lines to scroll when the cursor gets off the screen
 set scrolloff=3                           " Minimal number of screen lines to keep above and below the cursor.
-set shortmess=T                           " Fix the 'Press ENTER to continue' messages
+"set shortmess=T                           " Fix the 'Press ENTER to continue' messages
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
 set tags=./tags;                          " directory for tag files
 set undofile
