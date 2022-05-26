@@ -68,20 +68,12 @@ nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-" nnoremap <leader>ow :e ~/workspace<cr> " Commenting out for opendoor
+nnoremap <leader>ow :e ~/workspace<cr>
 nnoremap <leader>ot :e ~/test.html<cr>
-nnoremap <leader>on :e ~/Google\ Drive/Documents/notes/<cr>
+" nnoremap <leader>on :e ~/Google\ Drive/Documents/notes/<cr>
+nnoremap <leader>on :e ~/workspace/notion<cr>
 nnoremap <leader>ok :e ~/workspace/koofitnessclub<cr>
 nnoremap <leader>oa :e ~/workspace/a-word-please<cr>
-
-" Opendoor stuff
-nnoremap <leader>oo :e ~/workspace/opendoor<cr>
-nnoremap <leader>ow :e ~/workspace/opendoor/web/<cr>
-nnoremap <leader>or :e ~/workspace/opendoor/go/src/github.com/opendoor-labs/code/go/services/reception<cr>
-nnoremap <leader>oi :e ~/workspace/opendoor/institutions<cr>
-nnoremap <leader>oh :e ~/workspace/opendoor/hellorito<cr>
-nnoremap <leader>om :e ~/workspace/opendoor/mobile<cr>
-nnoremap <leader>oc :e ~/workspace/opendoor/code<cr>
 
 " Colors
 nnoremap <leader>cp :color pyte<cr>
