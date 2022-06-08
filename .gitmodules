@@ -1,33 +1,18 @@
 [submodule "bundle/ack-vim"]
 	path = bundle/ack-vim
 	url = git@github.com:gkoo/ack.vim.git
-[submodule "bundle/vim-handlebars"]
-	path = bundle/vim-handlebars
-	url = https://github.com/nono/vim-handlebars.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = git@github.com:pangloss/vim-javascript.git
-[submodule "bundle/vim-es6"]
-	path = bundle/vim-es6
-	url = git@github.com:isRuslan/vim-es6.git
 [submodule "bundle/vim-rhubarb"]
 	path = bundle/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
 [submodule "bundle/vim-tsx"]
 	path = bundle/vim-tsx
 	url = git@github.com:ianks/vim-tsx.git
-[submodule "bundle/vim-colors-github"]
-	path = bundle/vim-colors-github
-	url = git@github.com:cormacrelf/vim-colors-github.git
-[submodule "bundle/vim-go"]
-	path = bundle/vim-go
-	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vim-fzf"]
 	path = bundle/vim-fzf
 	url = git@github.com:junegunn/fzf.vim.git
@@ -36,4 +21,7 @@
 	url = git@github.com:jlanzarotta/bufexplorer.git
 [submodule "bundle/bundle/vim-commentary"]
 	path = bundle/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
