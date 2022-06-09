@@ -11,5 +11,5 @@
 	path = pack/tpope/start/rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
 [submodule "pack/bufexplorer/bufexplorer"]
-	path = pack/bufexplorer/bufexplorer
+	path = pack/bufexplorer/start/bufexplorer
 	url = git@github.com:jlanzarotta/bufexplorer.git
