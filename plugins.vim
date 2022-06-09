@@ -17,7 +17,7 @@ let g:ctrlp_prompt_mappings = {
 " let g:aghighlight=1
 
 " FUGITIVE
-nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gs :Git<cr>
 nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>gd :Gvdiff<cr>
 nnoremap <leader>gc :Gcommit<cr>

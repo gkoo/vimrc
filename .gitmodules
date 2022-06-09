@@ -1,24 +1,18 @@
 [submodule "bundle/ack-vim"]
 	path = bundle/ack-vim
 	url = git@github.com:gkoo/ack.vim.git
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = https://github.com/tpope/vim-markdown.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-rhubarb"]
-	path = bundle/vim-rhubarb
-	url = git@github.com:tpope/vim-rhubarb.git
-[submodule "bundle/vim-fzf"]
-	path = bundle/vim-fzf
-	url = git@github.com:junegunn/fzf.vim.git
-[submodule "bundle/bufexplorer"]
-	path = bundle/bufexplorer
+[submodule "pack/plugins/start/bufexplorer"]
+	path = pack/plugins/start/bufexplorer
 	url = git@github.com:jlanzarotta/bufexplorer.git
-[submodule "bundle/bundle/vim-commentary"]
-	path = bundle/bundle/vim-commentary
+[submodule "pack/plugins/start/vim-commentary"]
+	path = pack/plugins/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
-[submodule "bundle/vim-commentary"]
-	path = bundle/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/plugins/start/vim-fugitive"]
+	path = pack/plugins/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "pack/plugins/start/vim-fzf"]
+	path = pack/plugins/start/vim-fzf
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/plugins/start/vim-rhubarb"]
+	path = pack/plugins/start/vim-rhubarb
+	url = git@github.com:tpope/vim-rhubarb.git
