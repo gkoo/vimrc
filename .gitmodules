@@ -1,9 +1,6 @@
 [submodule "pack/plugins/start/bufexplorer"]
 	path = pack/plugins/start/bufexplorer
 	url = git@github.com:jlanzarotta/bufexplorer.git
-[submodule "pack/plugins/start/vim-commentary"]
-	path = pack/plugins/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
 [submodule "pack/plugins/start/vim-rhubarb"]
 	path = pack/plugins/start/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
@@ -13,3 +10,6 @@
 [submodule "pack/vim-fzf/start/vim-fzf"]
 	path = pack/vim-fzf/start/vim-fzf
 	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/tpope/start/vim-commentary"]
+	path = pack/tpope/start/vim-commentary
+	url = https://tpope.io/vim/commentary.git

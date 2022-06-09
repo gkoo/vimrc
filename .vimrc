@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 syntax on
 
 source ~/.vim/basic_settings.vim
