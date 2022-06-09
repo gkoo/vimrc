@@ -13,3 +13,6 @@
 [submodule "pack/tpope/start/vim-commentary"]
 	path = pack/tpope/start/vim-commentary
 	url = https://tpope.io/vim/commentary.git
+[submodule "pack/tpope/start/rhubarb"]
+	path = pack/tpope/start/rhubarb
+	url = git@github.com:tpope/vim-rhubarb.git
