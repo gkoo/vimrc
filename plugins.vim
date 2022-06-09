@@ -14,9 +14,7 @@ let g:ctrlp_prompt_mappings = {
 
 " Ag
 "nnoremap <leader>a :Ag! 
-let g:agdefaultdir="~/workspace/airbnb/monorail/app"
-"let g:agdefaultdir="~/workspace/airbnb/monorail/app/assets/javascripts/new_verified_id"
-let g:aghighlight=1
+" let g:aghighlight=1
 
 " FUGITIVE
 nnoremap <leader>gs :Gstatus<cr>

@@ -1,6 +1,6 @@
 " STATUSLINE
 set statusline=%m        "modified flag
-set statusline+=%{FugitiveStatusLine()} "current git branch (fugitive-statusline)
+"set statusline+=%{FugitiveStatusLine()} "current git branch (fugitive-statusline)
 set statusline+=%t       "tail of the filename
 set statusline+=%r      "read only flag
 "set statusline+=%{StatuslineLongLineWarning()}

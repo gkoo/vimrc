@@ -25,9 +25,6 @@ vnoremap <Del> <C-C>
 onoremap <Del> <C-C>
 cnoremap <Del> <C-C>
 inoremap jk <Esc>
-nnoremap <PageDown> :
-vnoremap <PageDown> :
-inoremap <PageDown> :
 inoremap <End> _
 cnoremap <End> _
 
@@ -68,10 +65,12 @@ nnoremap <leader>m @q
 nnoremap <leader>ov :e ~/.vim/.vimrc<cr>:cd ~/.vim<cr>
 nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>oh :e ~/<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
 nnoremap <leader>ot :e ~/test.html<cr>
 " nnoremap <leader>on :e ~/Google\ Drive/Documents/notes/<cr>
-nnoremap <leader>on :e ~/workspace/notion<cr>
+nnoremap <leader>on :e ~/workspace/notion/notion-next/src<cr>
+
 nnoremap <leader>ok :e ~/workspace/koofitnessclub<cr>
 nnoremap <leader>oa :e ~/workspace/a-word-please<cr>
 
