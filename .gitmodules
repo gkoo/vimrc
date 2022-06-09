@@ -4,9 +4,12 @@
 [submodule "pack/plugins/start/vim-commentary"]
 	path = pack/plugins/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
-[submodule "pack/plugins/start/vim-fzf"]
-	path = pack/plugins/start/vim-fzf
-	url = git@github.com:junegunn/fzf.vim.git
 [submodule "pack/plugins/start/vim-rhubarb"]
 	path = pack/plugins/start/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "pack/tpope/start/fugitive"]
+	path = pack/tpope/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+[submodule "pack/vim-fzf/start/vim-fzf"]
+	path = pack/vim-fzf/start/vim-fzf
+	url = git@github.com:junegunn/fzf.vim.git
