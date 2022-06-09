@@ -22,8 +22,8 @@ nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>gd :Gvdiff<cr>
 nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gb :Gblame<cr>
-nnoremap <leader>go :Gbrowse<cr>
-vnoremap <leader>go :Gbrowse<cr>
+nnoremap <leader>go :GBrowse<cr>
+vnoremap <leader>go :GBrowse<cr>
 nnoremap <leader>gg :Ggrep 
 autocmd QuickFixCmdPost *grep* cwindow " Make Ggrep open quickfix window
 
