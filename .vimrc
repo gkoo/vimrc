@@ -10,7 +10,6 @@ source ~/.vim/plugins.vim
 source ~/.vim/functions.vim
 source ~/.vim/file_types.vim
 source ~/.vim/status_line.vim
-source ~/.vim/coc.vim
 
 set background=dark
 color pyte
