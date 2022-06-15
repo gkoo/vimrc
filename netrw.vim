@@ -9,4 +9,4 @@ let g:netrw_keepdir=0   " Make current directory track netrw's directory
 
 " Prevent NetRW from colliding with <C-L> remapping
 " https://stackoverflow.com/questions/33351179/how-to-rewrite-existing-vim-key-bindings
-nmap <unique> <leader><c-r> <Plug>NetrwRefresh
+nmap <unique> <leader><c-z> <Plug>NetrwRefresh
