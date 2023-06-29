@@ -1,6 +1,6 @@
 if has("gui_running")
   set guioptions=egmrt
-  set fuopt=maxvert,maxhorz
+  " set fuopt=maxvert,maxhorz
   set undofile
   set undodir=~/.vim/undo
 

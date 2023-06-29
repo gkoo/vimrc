@@ -7,7 +7,8 @@ set smartcase                             " if a search contains at least one up
 set autoindent
 set smartindent
 set tabstop=2
-set expandtab                             " Auto expand tabs to spaces
+" set expandtab                             " Auto expand tabs to spaces
+set noexpandtab                             " Don't expand tabs to spaces
 set shiftwidth=2
 
 set autochdir
@@ -27,6 +28,7 @@ set hlsearch
 set lines=40 columns=120
 set list
 set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
+set mouse=a
 set mps+=<:>                              " match pairs, add angle brackets for html
 set number
 set ruler
@@ -44,6 +46,9 @@ set wildmode=longest:full,full            " Auto-fill longest common substring, 
 
 " For some reason, need to reset ignorecase for each new buffer
 autocmd BufEnter * set ignorecase
+
+" Fix for autoread for Neovim
+autocmd FocusGained * silent! checktime
 
 "set nocompatible                          " No compatibility mode with vi
 "set relativenumber                        " Show all other line numbers relative to the current line

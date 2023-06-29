@@ -8,6 +8,8 @@ set statusline+=%r      "read only flag
 
 
 set statusline+=%=      "left/right separator
+set statusline+=%{coc#status()}%{get(b:,'coc_current_function','')} " COC status
+set statusline+=\ ★\ 
 set statusline+=C%c:     "cursor column
 set statusline+=L(%l/%L)   "cursor line/total lines
 set statusline+=\ %P    "percent through file

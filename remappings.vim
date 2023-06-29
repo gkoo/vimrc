@@ -111,3 +111,9 @@ nnoremap K <esc>
 " nnoremap K :Ggrep! "\b<C-R><C-W>\b"<CR>:cw<CR>h"
 
 nnoremap <leader>ss :SyntasticCheck<cr>
+
+
+" Make Cmd+V work in goneovim
+nnoremap <D-v> a<C-r>+<Esc>
+inoremap <D-v> <C-r>+
+cnoremap <D-v> <C-r>+
