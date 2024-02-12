@@ -13,3 +13,6 @@
 [submodule "/Users/gkoo/.vim/pack/plugins/start/vim-prettier"]
 	path = /Users/gkoo/.vim/pack/plugins/start/vim-prettier
 	url = https://github.com/prettier/vim-prettier
+[submodule "pack/plugins/start/coc.nvim"]
+	path = pack/plugins/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
