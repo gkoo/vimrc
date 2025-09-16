@@ -67,9 +67,8 @@ nnoremap <leader>oz :e ~/.dotfiles/zsh/.zshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>oh :e ~/<cr>
 nnoremap <leader>ow :e ~/workspace<cr>
-nnoremap <leader>ot :e ~/test.html<cr>
-" nnoremap <leader>on :e ~/Google\ Drive/Documents/notes/<cr>
-nnoremap <leader>on :e ~/workspace/notion/notion-next/src<cr>
+nnoremap <leader>ot :terminal<cr>
+nnoremap <leader>on :e ~/workspace/notion/notion-next<cr>:cd ~/workspace/notion/notion-next<cr>
 
 nnoremap <leader>ok :e ~/workspace/koofitnessclub<cr>
 nnoremap <leader>oa :e ~/workspace/a-word-please<cr>
@@ -77,6 +76,7 @@ nnoremap <leader>oa :e ~/workspace/a-word-please<cr>
 " Colors
 nnoremap <leader>cp :color pyte<cr>
 nnoremap <leader>cr :color rubyblue<cr>
+nnoremap <leader>cu :color unokai<cr>
 nnoremap <leader>cs :set background=dark<cr>:color solarized<cr>
 
 " Center cursor on screen
