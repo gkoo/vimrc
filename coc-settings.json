@@ -1,3 +1,30 @@
 {
-	"tsserver.maxTsServerMemory": 14336
+	"tsserver.maxTsServerMemory": 14336,
+	"coc.preferences.formatOnSave": true,
+	"languageserver": {
+		"biome": {
+			"command": "./node_modules/@biomejs/biome/bin/biome",
+			"args": ["lsp-proxy"],
+			"filetypes": ["typescript", "typescriptreact", "javascript", "javascriptreact", "json", "jsonc"],
+			"rootPatterns": ["biome.json", "biome.jsonc"]
+		}
+	},
+	"[typescript]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[javascript]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[javascriptreact]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[json]": {
+		"coc.preferences.formatOnSave": true
+	},
+	"[jsonc]": {
+		"coc.preferences.formatOnSave": true
+	}
 }

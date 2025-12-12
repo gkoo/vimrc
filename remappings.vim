@@ -16,7 +16,8 @@ nnoremap <C-H> <C-W>h
 nnoremap <C-L> <C-W>l
 " Hack to make <C-L> remapping work in Netrw
 " https://stackoverflow.com/questions/33351179/how-to-rewrite-existing-vim-key-bindings
-nnoremap <unique> <c-1> <Plug>NetrwRefresh
+" nnoremap <unique> <c-1> <Plug>NetrwRefresh
+nnoremap <c-1> <Plug>NetrwRefresh
 
 " Kinesis keyboard remappings
 nnoremap <Del> <C-C>
@@ -92,7 +93,7 @@ inoremap # X<C-H>#
 " for mac users (using the 'apple' key)
 nnoremap <D-S-]> gt
 nnoremap <D-S-[> gT
-nnoremap <D-1> 1gt
+" nnoremap <D-1> 1gt
 nnoremap <D-2> 2gt
 nnoremap <D-3> 3gt
 nnoremap <D-4> 4gt
@@ -111,9 +112,3 @@ nnoremap K <esc>
 " nnoremap K :Ggrep! "\b<C-R><C-W>\b"<CR>:cw<CR>h"
 
 nnoremap <leader>ss :SyntasticCheck<cr>
-
-
-" Make Cmd+V work in goneovim
-nnoremap <D-v> a<C-r>+<Esc>
-inoremap <D-v> <C-r>+
-cnoremap <D-v> <C-r>+

@@ -18,13 +18,21 @@ autocmd QuickFixCmdPost *grep* cwindow " Make Ggrep open quickfix window
 " FZF
 set rtp+=/opt/homebrew/opt/fzf
 nnoremap <C-P> :GFiles<cr>
+nnoremap <leader>b :Buffers<cr>
 "nnoremap <leader>b :Buffers<cr>
 nnoremap <leader>h :History<cr>
 nnoremap <leader>l :BLines<cr>
 nnoremap <leader>a :Ag<cr>
 
+command! -bang -nargs=* Ag
+  \ call fzf#vim#ag(<q-args>, 
+  \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), 
+  \   <bang>0)
+
+
 " PRETTIER
+" Disabled auto-format - using Biome for TS/JS files via coc-biome
 let g:prettier#exec_cmd_async = 1
-let g:prettier#autoformat = 1
+let g:prettier#autoformat = 0
 let g:prettier#autoformat_require_pragma = 0
 let g:prettier#exec_cmd_path = "/Users/gkoo/workspace/notion/notion-next/node_modules/.bin/prettier"

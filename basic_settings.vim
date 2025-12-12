@@ -25,7 +25,9 @@ set foldmethod=indent
 set guifont=Menlo:h16
 set hlsearch
 "set hidden
-set lines=40 columns=120
+if has("gui_running")
+	set lines=40 columns=120
+endif
 set list
 set listchars=tab:→\ ,trail:·              " set listchars=tab:>-,trail:~
 set mouse=a
@@ -34,9 +36,10 @@ set number
 set ruler
 set scrolljump=5                          " Minimal number of lines to scroll when the cursor gets off the screen
 set scrolloff=3                           " Minimal number of screen lines to keep above and below the cursor.
-"set shortmess=T                           " Fix the 'Press ENTER to continue' messages
+"set shortmess=T                          " Fix the 'Press ENTER to continue' messages
 set showmatch                             " Highlight matching character (for brackets, parentheses, etc.)
 set tags=./tags;                          " directory for tag files
+set termwinscroll=10000                   " Terminal window scrollback history
 set undofile
 set undodir=~/.vim/undo
 set wildmenu
@@ -49,6 +52,8 @@ autocmd BufEnter * set ignorecase
 
 " Fix for autoread for Neovim
 autocmd FocusGained * silent! checktime
+
+command! -nargs=* Vterminal botright vertical terminal <args>
 
 "set nocompatible                          " No compatibility mode with vi
 "set relativenumber                        " Show all other line numbers relative to the current line

@@ -164,3 +164,6 @@ nnoremap <silent><nowait> \j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> \k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> \p  :<C-u>CocListResume<CR>
+
+" Gordon's stuff?
+nnoremap <leader>z :CocSearch 

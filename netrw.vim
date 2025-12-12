@@ -9,4 +9,7 @@ let g:netrw_keepdir=0   " Make current directory track netrw's directory
 
 " Prevent NetRW from colliding with <C-L> remapping
 " https://stackoverflow.com/questions/33351179/how-to-rewrite-existing-vim-key-bindings
-nmap <unique> <leader><c-z> <Plug>NetrwRefresh
+nnoremap <unique> <leader><c-z> <Plug>NetrwRefresh
+
+" Fix for fugitive :GBrowse - prevent netrw from interfering
+let g:netrw_nogx = 1
