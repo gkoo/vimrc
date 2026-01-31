@@ -1,14 +1,10 @@
 {
 	"tsserver.maxTsServerMemory": 14336,
 	"coc.preferences.formatOnSave": true,
-	"languageserver": {
-		"biome": {
-			"command": "./node_modules/@biomejs/biome/bin/biome",
-			"args": ["lsp-proxy"],
-			"filetypes": ["typescript", "typescriptreact", "javascript", "javascriptreact", "json", "jsonc"],
-			"rootPatterns": ["biome.json", "biome.jsonc"]
-		}
-	},
+	"typescript.format.enable": false,
+	"javascript.format.enable": false,
+	"json.format.enable": false,
+	"biome.enable": true,
 	"[typescript]": {
 		"coc.preferences.formatOnSave": true
 	},
